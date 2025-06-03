@@ -1,6 +1,34 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
 .gradle
 **/build/
 !**/src/**/build/
+
+# other
+eclipse
+run
+runs
+run-data
+
+repo
+
+logs/
+.DS_Store
+/src/generated/resources/.cache/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -13,9 +41,3 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
-
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
